@@ -1,0 +1,17 @@
+{
+  "name": "msft-jest-config",
+  "version": "1.0.1",
+  "description": "",
+  "main": "jest-preset.js",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --project ./tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "tslint": ">= 6"
+  }
+}
